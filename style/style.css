@@ -4,9 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--principal);
+}
+
+:root {
+    --principal: black;
+    --secundario: rgb(0, 0, 0);
+    --letras: rgb(30, 241, 231);
+}
+
 header {
     width: 100%;
-    background-color: aquamarine;
+    background-color: var(--letras);
     display: flex;
     align-items: center;
 }
@@ -24,7 +34,8 @@ header {
 }
 
 #search:focus {
-    background-color: white;
+    background-color: var(--principal);
+    color: var(--letras);
     outline: none;
 }
 
@@ -42,7 +53,6 @@ header {
     width: 300px;
     aspect-ratio: 1/1.2;
     object-fit: contain;
-    border: 1px solid red;
 }
 
 /*#content {
@@ -50,4 +60,15 @@ header {
     grid-template-columns: repeat(6, auto);
     align-items: center;
     justify-content: center;
+}
+
+/*----------------------MOBILE----------------------*/
+/*----------------------MOBILE----------------------*/
+/*----------------------MOBILE----------------------*/
+/*----------------------MOBILE----------------------*/
+/*----------------------MOBILE----------------------*/
+@media (max-width: 500px) {
+    #search {
+        margin-left: 1rem;
+    }
 }
