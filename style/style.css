@@ -55,6 +55,18 @@ header {
     object-fit: contain;
 }
 
+.movie img {
+    width: 300px;
+    aspect-ratio: 1/1.2;
+    object-fit: contain;
+}
+
+.soloSaga img {
+    width: 300px;
+    aspect-ratio: 1/1.2;
+    object-fit: contain;
+}
+
 /*#content {
     display: grid;
     grid-template-columns: repeat(6, auto);

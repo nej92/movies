@@ -4,23 +4,23 @@ const peliculas = [
         name: "Harry Potter y la piedra filosofal",
         saga: true,
         year: "2001",
-        img: "https://i0.wp.com/cineyvaloressj.com/wp-content/uploads/2020/08/42100525172832813e301be5faadbbf1.jpg?fit=1077%2C1481&ssl=1",
-        trailer: "https://youtu.be/mNgwNXKBEW0"
+        img: "/imgs/HP1.jpg",
+        trailer: ""
     },
     {
         id: "02",
-        name: "Harry Potter y la cámara secreta",
+        name: "Harry Potter y la camara secreta",
         saga: true,
         year: "2002",
-        img: "https://pics.filmaffinity.com/Harry_Potter_y_la_caamara_secreta-954557814-large.jpg",
+        img: "/imgs/HP2.jpg",
         trailer: "https://youtu.be/jBltxS8HfQ4"
     },
     {
         id: "03",
-        name: "Harry Potter y el cáliz de fuego",
+        name: "Harry Potter y el caliz de fuego",
         saga: true,
         year: "2005",
-        img: "https://pics.filmaffinity.com/Harry_Potter_y_el_c_liz_de_fuego-574935053-large.jpg",
+        img: "/imgs/HP4.jpg",
         trailer: "https://youtu.be/3EGojp4Hh6I"
     },
     {
@@ -28,7 +28,7 @@ const peliculas = [
         name: "Harry Potter y la orden del Fénix",
         saga: true,
         year: "2007",
-        img: "https://pics.filmaffinity.com/Harry_Potter_y_la_orden_del_F_nix-427130056-large.jpg",
+        img: "/imgs/HP5.jpg",
         trailer: "https://youtu.be/y6ZW7KXaXYk"
     },
     {
@@ -36,7 +36,7 @@ const peliculas = [
         name: "Harry Potter y el prisionero de Azkaban",
         saga: true,
         year: "2004",
-        img: "https://es.web.img2.acsta.net/pictures/14/04/30/11/36/185120.jpg",
+        img: "/imgs/HP3.jpg",
         trailer: "https://youtu.be/1ZdlAg3j8nI"
     },
     {
@@ -44,7 +44,7 @@ const peliculas = [
         name: "Harry Potter y las reliquias de la muerte 1",
         saga: true,
         year: "2010",
-        img: "https://es.web.img2.acsta.net/medias/nmedia/18/82/10/76/19599753.jpg",
+        img: "/imgs/HP6.jpg",
         trailer: "https://youtu.be/MxqsmsA8y5k"
     },
     {
@@ -52,7 +52,7 @@ const peliculas = [
         name: "Harry Potter y las reliquias de la muerte 2",
         saga: true,
         year: "2011",
-        img: "https://es.web.img2.acsta.net/medias/nmedia/18/84/93/87/19765356.jpg",
+        img: "/imgs/HP7.jpg",
         trailer: "https://youtu.be/5NYt1qirBWg"
     },
     {
@@ -60,296 +60,352 @@ const peliculas = [
         name: "Love, Death & Robots",
         saga: false,
         year: "2019",
-        img: "https://pics.filmaffinity.com/love_death_robots-192878001-mmed.jpg",
+        img: "/imgs/LDAR.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "09",
         name: "Black Mirror",
         saga: false,
         year: "2014",
-        img: "https://media.es.wired.com/photos/6480ef20a566376ee967be75/16:9/w_2992,h_1683,c_limit/black%20mirror%20chatgpt.jpg",
+        img: "/imgs/blackMirror.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "10",
         name: "Cyberpunk",
         saga: false,
         year: "2020",
-        img: "https://ahscatseye.com/wp-content/uploads/2022/11/Cyberpunk-Edgerunners-Wallpaper-1.webp",
+        img: "/imgs/cyberpunk.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "11",
         name: "The Avengers",
         saga: true,
         year: "2012",
-        img: "https://static.tvtropes.org/pmwiki/pub/images/100420.jpg",
+        img: "/imgs/theAvengers.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "12",
         name: "Avengers: Age of Ultron",
         saga: true,
         year: "2015",
-        img: "https://static.wikia.nocookie.net/marvel-cinematic-universe/images/7/7f/Avengers_Age_of_Ultron_poster.JPG/revision/latest?cb=20150308230451",
+        img: "/imgs/AvengersUltron.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "13",
         name: "Avengers: Infinity War",
         saga: true,
         year: "2018",
-        img: "https://static.wikia.nocookie.net/doblaje/images/0/0b/AvengersIW.jpg/revision/latest?cb=20180811120336&path-prefix=es",
+        img: "/imgs/AvengersInfinity.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "14",
         name: "Avengers: Endgame",
         saga: true,
         year: "2019",
-        img: "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810",
+        img: "/imgs/AvengersEndgame.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "15",
         name: "X-Men",
         saga: true,
         year: "2000",
-        img: "https://pics.filmaffinity.com/X_Men-602628413-large.jpg",
+        img: "/imgs/XMen.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "16",
         name: "X-Men 2",
         saga: true,
         year: "2003",
-        img: "https://pics.filmaffinity.com/X_Men_2-867374336-large.jpg",
+        img: "/imgs/xmen2.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "17",
         name: "X-Men 3: The Last Stand",
         saga: true,
         year: "2006",
-        img: "https://lumiere-a.akamaihd.net/v1/images/xmen3_584x800_fb5b8bf7.jpeg",
+        img: "/imgs/xMen3.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "18",
         name: "X-Men Origins",
         saga: true,
         year: "2009",
-        img: "https://lumiere-a.akamaihd.net/v1/images/xmenow_584x800_db9a721b.jpeg?region=0%2C0%2C584%2C800",
+        img: "/imgs/xMenOrigins.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "19",
         name: "X-Men First Class",
         saga: true,
         year: "2011",
-        img: "https://m.media-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_SL1024_.jpg",
+        img: "/imgs/xMenFirstClass.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "20",
         name: "X-Men: The Wolverine",
         saga: true,
         year: "2013",
-        img: "https://static.wikia.nocookie.net/marveldatabase/images/7/79/The_Wolverine_%28film%29_poster_003.jpg/revision/latest?cb=20130326173841",
+        img: "/imgs/theWolverine.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "21",
         name: "X-Men: Days of Future Past",
         saga: true,
         year: "2014",
-        img: "https://static.wikia.nocookie.net/marveldatabase/images/5/5f/X-Men_Days_of_Future_Past_%28film%29_poster_003.jpg/revision/latest?cb=20140324155123",
+        img: "/imgs/xMenDaysFuture.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "22",
         name: "X-Men: Apocalipsis",
         saga: true,
         year: "2016",
-        img: "https://play-lh.googleusercontent.com/a3B3z0-dMFGbdwGa9Lt_2Gtp-XcZez6S1T8o2XUyE-xtVil1K1AQP1ZjwKW89Ick9bQpCA",
+        img: "/imgs/xmenApocalipsis.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "23",
         name: "X-Men: Logan",
         saga: true,
         year: "2017",
-        img: "https://cdn.marvel.com/content/1x/logan_lob_crd_02.jpg",
+        img: "/imgs/logan.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "24",
         name: "X-Men: Dark Phoenix",
         saga: true,
         year: "2019",
-        img: "https://static.wikia.nocookie.net/xmen9260/images/f/f5/Dark_Phoenix.jpg/revision/latest?cb=20210111165215&path-prefix=es",
+        img: "/imgs/xMenDarkPhoenix.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "25",
         name: "Spider-Man: Homecoming",
         saga: true,
         year: "2017",
-        img: "https://www.ecartelera.com/carteles/9900/9968/006_m.jpg",
+        img: "/imgs/SpiderManHomeComing.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "26",
         name: "Spider-Man: Far from Home",
         saga: true,
         year: "2019",
-        img: "https://static.wikia.nocookie.net/spiderman/images/f/fc/Spider_Man_Far_From_Home_-_P%C3%B3ster_EEUU.png/revision/latest?cb=20190522155952&path-prefix=es",
+        img: "/imgs/Spider_Man_Far_From_Home.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "27",
         name: "Spider-Man: No Way Home",
         saga: true,
         year: "2021",
-        img: "https://resizing.flixster.com/8PNiwC2bpe9OecfYZSOVkvYC5vk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U5NGM0Y2Q1LTAyYTItNGFjNC1hNWZhLWMzYjJjOTdjMTFhOS5qcGc=",
+        img: "/imgs/SpiderManNoWayHome.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "28",
         name: "Doctor Strange",
         saga: true,
         year: "2016",
-        img: "https://lumiere-a.akamaihd.net/v1/images/p_doctorstrange_19918_516f94d3.jpeg",
+        img: "/imgs/DoctorStrange.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "29",
         name: "Doctor Strange in the Multiverse of Madness",
         saga: true,
         year: "2022",
-        img: "https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg?region=0%2C0%2C540%2C810",
+        img: "/imgs/DoctorStrangeMultiverse.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "30",
         name: "The Fast and the Furious",
         saga: true,
         year: "2001",
-        img: "https://static.wikia.nocookie.net/fastandfurious/images/8/87/Fast_One_Poster.jpg/revision/latest?cb=20200205060103",
+        img: "/imgs/TheFastadnTheFurious.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "31",
         name: "2 Fast 2 Furious",
         saga: true,
         year: "2003",
-        img: "https://es.web.img2.acsta.net/medias/nmedia/18/68/78/98/20073083.jpg",
+        img: "/imgs/2Fast2Furious.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "32",
         name: "The Fast and the Furious: Tokyo Drift",
         saga: true,
         year: "2006",
-        img: "https://static.tvtropes.org/pmwiki/pub/images/mpw_19912.jpg",
+        img: "/imgs/fastandFuriousTokyo.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "33",
         name: "Fast & Furious",
         saga: true,
         year: "2009",
-        img: "https://pics.filmaffinity.com/fast_and_furious_4-818035556-mmed.jpg",
+        img: "/imgs/fast_and_furious.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "34",
         name: "Fast Five",
         saga: true,
         year: "2011",
-        img: "https://static.wikia.nocookie.net/fastandfurious/images/e/ed/Fast_Five_Poster.jpg/revision/latest?cb=20200323092932",
+        img: "/imgs/Fast_Five.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "35",
         name: "Fast & Furious 6",
         saga: true,
         year: "2013",
-        img: "https://es.web.img3.acsta.net/pictures/205/399/20539964_2013051016211584.jpg",
+        img: "/imgs/fast_and_furious6.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "36",
         name: "Furious 7",
         saga: true,
         year: "2015",
-        img: "https://www.ecartelera.com/carteles/2400/2459/002_m.jpg",
+        img: "/imgs/Furious7.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "37",
         name: "The Fate of the Furious",
         saga: true,
         year: "2017",
-        img: "https://m.media-amazon.com/images/M/MV5BZmJiYTBkNzUtOGYyMy00YThiLWIxZWYtMDZlNzM5Y2Q5NTg5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        img: "/imgs/theFateOfTheFurious.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "38",
         name: "F9",
         saga: true,
         year: "2021",
-        img: "https://play-lh.googleusercontent.com/EbE24jpcWH6sV3RmJydtmbj7Qw6Ym6v8_6Sek0CjOHYuLxPoSjShJGuCy_oA75solihiV0aHhU7NdZ3ZV1dy",
+        img: "/imgs/F9.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "39",
         name: "Fast X",
         saga: true,
         year: "2023",
-        img: "https://static.wikia.nocookie.net/atodogas/images/5/51/Poster_de_Rapidos_y_Furiosos_10.jpg/revision/latest?cb=20230614171609&path-prefix=es",
+        img: "/imgs/fastX.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "40",
         name: "Rick and Morty",
         saga: false,
         year: "2023",
-        img: "https://images.sr.roku.com/idType/roku/context/global/id/2b01e91bcae4585784b1e4f66c62134f/images/gracenote/assets/p10376284_b_v12_aa.jpg/magic/396x0/filters:quality(70)",
+        img: "/imgs/RickadnMorty.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "41",
         name: "Fantastic Beasts and Where to Find Them",
         saga: true,
         year: "2016",
-        img: "https://m.media-amazon.com/images/I/51g5D+Qx6+L.jpg",
+        img: "/imgs/FB1.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "42",
         name: "Fantastic Beasts: The Crimes of Grindelwald",
         saga: true,
         year: "2018",
-        img: "https://play-lh.googleusercontent.com/v5L_Bt6Rwh_nmB-roPrutWRTMS1WbSRS2YRUWb9b4qzLkUAbN8mj5gUuCfIn6pjTsgUgg79N5LkOcWRkCg",
+        img: "/imgs/FBgrindelwald.jpg",
         trailer: ""
     },
     {
-        id: "",
+        id: "43",
         name: "Fantastic Beasts: The Secrets of Dumbledore",
         saga: true,
         year: "2022",
-        img: "https://play-lh.googleusercontent.com/15hBYbwFcWYNGwx1V1BmTgNjn8DLPckxoUBiFOJ00h4MQmd0BnQYAHnxMcWxb9IgfBUMrcfRUFcy_pwReWg",
+        img: "/imgs/FBDumbledor.jpg",
+        trailer: ""
+    },
+    {
+        id: "44",
+        name: "High School Musical",
+        saga: true,
+        year: "2006",
+        img: "/imgs/HSM1.jpg",
+        trailer: ""
+    },
+    {
+        id: "45",
+        name: "High School Musical 2",
+        saga: true,
+        year: "2007",
+        img: "/imgs/HSM2.jpg",
+        trailer: ""
+    },
+    {
+        id: "46",
+        name: "High School Musical 3: Senior Year",
+        saga: true,
+        year: "2008",
+        img: "/imgs/HSM3.jpg",
+        trailer: ""
+    },
+    {
+        id: "47",
+        name: "Real Steel",
+        saga: false,
+        year: "2011",
+        img: "/imgs/RealSteal.jpg",
+        trailer: ""
+    },
+    {
+        id: "48",
+        name: "Ready Player One",
+        saga: false,
+        year: "2018",
+        img: "/imgs/ReadyPlayerOne.jpg",
+        trailer: ""
+    },
+    {
+        id: "49",
+        name: "Alita: Battle Angel",
+        saga: false,
+        year: "2019",
+        img: "/imgs/Alita.jpg",
+        trailer: ""
+    },
+    {
+        id: "50",
+        name: "Dune",
+        saga: true,
+        year: "2021",
+        img: "/imgs/.jpg",
         trailer: ""
     }
     /*
     {
         id: "",
         name: "",
-        saga: tsrue,
+        saga: true,
         year: "2023",
-        img: "",
+        img: "/imgs/.jpg",
         trailer: ""
     }
     {
@@ -357,7 +413,7 @@ const peliculas = [
         name: "",
         saga: true,
         year: "2023",
-        img: "",
+        img: "/imgs/.jpg",
         trailer: ""
     }
     {
@@ -365,7 +421,7 @@ const peliculas = [
         name: "",
         saga: true,
         year: "2023",
-        img: "",
+        img: "/imgs/.jpg",
         trailer: ""
     }
     {
@@ -373,7 +429,7 @@ const peliculas = [
         name: "",
         saga: true,
         year: "2023",
-        img: "",
+        img: "/imgs/",
         trailer: ""
     }
     {
@@ -381,63 +437,7 @@ const peliculas = [
         name: "",
         saga: true,
         year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
-        trailer: ""
-    }
-    {
-        id: "",
-        name: "",
-        saga: true,
-        year: "2023",
-        img: "",
+        img: "/imgs/",
         trailer: ""
     }*/
 ]

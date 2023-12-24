@@ -22,3 +22,41 @@ function showMovies() {
     )
   })
 }
+
+$("#sin_saga").on('click', function () {
+  if ($('#sin_saga').prop("checked")) {
+    $('.movies').remove()
+    let sinSaga = peliculas.filter(peliculas => peliculas.saga == false);
+    for (m of sinSaga) {
+      $('#content').append(`
+      <div class="movie">
+        <h3 style="display: none">${m.name}</h3>
+        <img src="${m.img}">
+      </div>
+      `
+      )
+    }
+  } else {
+    $('.movie').remove();
+    showMovies()
+  }
+});
+
+$("#saga").on('click', function () {
+  if ($('#saga').prop("checked")) {
+    $('.movies').remove()
+    let soloSaga = peliculas.filter(peliculas => peliculas.saga == true);
+    for (m of soloSaga) {
+      $('#content').append(`
+      <div class="movie">
+        <h3 style="display: none">${m.name}</h3>
+        <img src="${m.img}">
+      </div>
+      `
+      )
+    }
+  } else {
+    $('.movie').remove();
+    showMovies()
+  }
+});
