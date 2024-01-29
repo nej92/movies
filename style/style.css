@@ -79,8 +79,12 @@ header {
 /*----------------------MOBILE----------------------*/
 /*----------------------MOBILE----------------------*/
 /*----------------------MOBILE----------------------*/
-@media (max-width: 500px) {
+@media (max-width: 375px) {
     #search {
         margin-left: 1rem;
+    }
+
+    header {
+        flex-direction: column;
     }
 }

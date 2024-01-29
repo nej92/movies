@@ -3,70 +3,79 @@ const peliculas = [
         id: "01",
         name: "Harry Potter y la piedra filosofal",
         saga: true,
+        kids: false,
         year: "2001",
-        img: "/imgs/HP1.jpg",
+        img: "imgs/HP1.jpg",
         trailer: ""
     },
     {
         id: "02",
         name: "Harry Potter y la camara secreta",
         saga: true,
+        kids: false,
         year: "2002",
-        img: "/imgs/HP2.jpg",
+        img: "imgs/HP2.jpg",
         trailer: "https://youtu.be/jBltxS8HfQ4"
     },
     {
         id: "03",
         name: "Harry Potter y el caliz de fuego",
         saga: true,
+        kids: false,
         year: "2005",
-        img: "/imgs/HP4.jpg",
+        img: "imgs/HP4.jpg",
         trailer: "https://youtu.be/3EGojp4Hh6I"
     },
     {
         id: "04",
         name: "Harry Potter y la orden del Fénix",
         saga: true,
+        kids: false,
         year: "2007",
-        img: "/imgs/HP5.jpg",
+        img: "imgs/HP5.jpg",
         trailer: "https://youtu.be/y6ZW7KXaXYk"
     },
     {
         id: "05",
         name: "Harry Potter y el prisionero de Azkaban",
         saga: true,
+        kids: false,
         year: "2004",
-        img: "/imgs/HP3.jpg",
+        img: "imgs/HP3.jpg",
         trailer: "https://youtu.be/1ZdlAg3j8nI"
     },
     {
         id: "06",
         name: "Harry Potter y las reliquias de la muerte 1",
         saga: true,
+        kids: false,
         year: "2010",
-        img: "/imgs/HP6.jpg",
+        img: "imgs/HP6.jpg",
         trailer: "https://youtu.be/MxqsmsA8y5k"
     },
     {
         id: "07",
         name: "Harry Potter y las reliquias de la muerte 2",
         saga: true,
+        kids: false,
         year: "2011",
-        img: "/imgs/HP7.jpg",
+        img: "imgs/HP7.jpg",
         trailer: "https://youtu.be/5NYt1qirBWg"
     },
     {
         id: "08",
         name: "Love, Death & Robots",
         saga: false,
+        kids: false,
         year: "2019",
-        img: "/imgs/LDAR.jpg",
+        img: "imgs/LDAR.jpg",
         trailer: ""
     },
     {
         id: "09",
         name: "Black Mirror",
         saga: false,
+        kids: false,
         year: "2014",
         img: "/imgs/blackMirror.jpg",
         trailer: ""
@@ -75,6 +84,7 @@ const peliculas = [
         id: "10",
         name: "Cyberpunk",
         saga: false,
+        kids: false,
         year: "2020",
         img: "/imgs/cyberpunk.jpg",
         trailer: ""
@@ -83,6 +93,7 @@ const peliculas = [
         id: "11",
         name: "The Avengers",
         saga: true,
+        kids: false,
         year: "2012",
         img: "/imgs/theAvengers.jpg",
         trailer: ""
@@ -91,6 +102,7 @@ const peliculas = [
         id: "12",
         name: "Avengers: Age of Ultron",
         saga: true,
+        kids: false,
         year: "2015",
         img: "/imgs/AvengersUltron.jpg",
         trailer: ""
@@ -99,6 +111,7 @@ const peliculas = [
         id: "13",
         name: "Avengers: Infinity War",
         saga: true,
+        kids: false,
         year: "2018",
         img: "/imgs/AvengersInfinity.jpg",
         trailer: ""
@@ -107,6 +120,7 @@ const peliculas = [
         id: "14",
         name: "Avengers: Endgame",
         saga: true,
+        kids: false,
         year: "2019",
         img: "/imgs/AvengersEndgame.jpg",
         trailer: ""
@@ -115,6 +129,7 @@ const peliculas = [
         id: "15",
         name: "X-Men",
         saga: true,
+        kids: false,
         year: "2000",
         img: "/imgs/XMen.jpg",
         trailer: ""
@@ -123,6 +138,7 @@ const peliculas = [
         id: "16",
         name: "X-Men 2",
         saga: true,
+        kids: false,
         year: "2003",
         img: "/imgs/xmen2.jpg",
         trailer: ""
@@ -131,6 +147,7 @@ const peliculas = [
         id: "17",
         name: "X-Men 3: The Last Stand",
         saga: true,
+        kids: false,
         year: "2006",
         img: "/imgs/xMen3.jpg",
         trailer: ""
@@ -139,6 +156,7 @@ const peliculas = [
         id: "18",
         name: "X-Men Origins",
         saga: true,
+        kids: false,
         year: "2009",
         img: "/imgs/xMenOrigins.jpg",
         trailer: ""
@@ -147,6 +165,7 @@ const peliculas = [
         id: "19",
         name: "X-Men First Class",
         saga: true,
+        kids: false,
         year: "2011",
         img: "/imgs/xMenFirstClass.jpg",
         trailer: ""
@@ -155,6 +174,7 @@ const peliculas = [
         id: "20",
         name: "X-Men: The Wolverine",
         saga: true,
+        kids: false,
         year: "2013",
         img: "/imgs/theWolverine.jpg",
         trailer: ""
@@ -163,6 +183,7 @@ const peliculas = [
         id: "21",
         name: "X-Men: Days of Future Past",
         saga: true,
+        kids: false,
         year: "2014",
         img: "/imgs/xMenDaysFuture.jpg",
         trailer: ""
@@ -171,6 +192,7 @@ const peliculas = [
         id: "22",
         name: "X-Men: Apocalipsis",
         saga: true,
+        kids: false,
         year: "2016",
         img: "/imgs/xmenApocalipsis.jpg",
         trailer: ""
@@ -179,6 +201,7 @@ const peliculas = [
         id: "23",
         name: "X-Men: Logan",
         saga: true,
+        kids: false,
         year: "2017",
         img: "/imgs/logan.jpg",
         trailer: ""
@@ -187,6 +210,7 @@ const peliculas = [
         id: "24",
         name: "X-Men: Dark Phoenix",
         saga: true,
+        kids: false,
         year: "2019",
         img: "/imgs/xMenDarkPhoenix.jpg",
         trailer: ""
@@ -195,6 +219,7 @@ const peliculas = [
         id: "25",
         name: "Spider-Man: Homecoming",
         saga: true,
+        kids: false,
         year: "2017",
         img: "/imgs/SpiderManHomeComing.jpg",
         trailer: ""
@@ -203,6 +228,7 @@ const peliculas = [
         id: "26",
         name: "Spider-Man: Far from Home",
         saga: true,
+        kids: false,
         year: "2019",
         img: "/imgs/Spider_Man_Far_From_Home.jpg",
         trailer: ""
@@ -211,6 +237,7 @@ const peliculas = [
         id: "27",
         name: "Spider-Man: No Way Home",
         saga: true,
+        kids: false,
         year: "2021",
         img: "/imgs/SpiderManNoWayHome.jpg",
         trailer: ""
@@ -219,6 +246,7 @@ const peliculas = [
         id: "28",
         name: "Doctor Strange",
         saga: true,
+        kids: false,
         year: "2016",
         img: "/imgs/DoctorStrange.jpg",
         trailer: ""
@@ -227,6 +255,7 @@ const peliculas = [
         id: "29",
         name: "Doctor Strange in the Multiverse of Madness",
         saga: true,
+        kids: false,
         year: "2022",
         img: "/imgs/DoctorStrangeMultiverse.jpg",
         trailer: ""
@@ -235,6 +264,7 @@ const peliculas = [
         id: "30",
         name: "The Fast and the Furious",
         saga: true,
+        kids: false,
         year: "2001",
         img: "/imgs/TheFastadnTheFurious.jpg",
         trailer: ""
@@ -243,6 +273,7 @@ const peliculas = [
         id: "31",
         name: "2 Fast 2 Furious",
         saga: true,
+        kids: false,
         year: "2003",
         img: "/imgs/2Fast2Furious.jpg",
         trailer: ""
@@ -251,6 +282,7 @@ const peliculas = [
         id: "32",
         name: "The Fast and the Furious: Tokyo Drift",
         saga: true,
+        kids: false,
         year: "2006",
         img: "/imgs/fastandFuriousTokyo.jpg",
         trailer: ""
@@ -259,6 +291,7 @@ const peliculas = [
         id: "33",
         name: "Fast & Furious",
         saga: true,
+        kids: false,
         year: "2009",
         img: "/imgs/fast_and_furious.jpg",
         trailer: ""
@@ -267,6 +300,7 @@ const peliculas = [
         id: "34",
         name: "Fast Five",
         saga: true,
+        kids: false,
         year: "2011",
         img: "/imgs/Fast_Five.jpg",
         trailer: ""
@@ -275,6 +309,7 @@ const peliculas = [
         id: "35",
         name: "Fast & Furious 6",
         saga: true,
+        kids: false,
         year: "2013",
         img: "/imgs/fast_and_furious6.jpg",
         trailer: ""
@@ -283,6 +318,7 @@ const peliculas = [
         id: "36",
         name: "Furious 7",
         saga: true,
+        kids: false,
         year: "2015",
         img: "/imgs/Furious7.jpg",
         trailer: ""
@@ -291,6 +327,7 @@ const peliculas = [
         id: "37",
         name: "The Fate of the Furious",
         saga: true,
+        kids: false,
         year: "2017",
         img: "/imgs/theFateOfTheFurious.jpg",
         trailer: ""
@@ -299,6 +336,7 @@ const peliculas = [
         id: "38",
         name: "F9",
         saga: true,
+        kids: false,
         year: "2021",
         img: "/imgs/F9.jpg",
         trailer: ""
@@ -307,6 +345,7 @@ const peliculas = [
         id: "39",
         name: "Fast X",
         saga: true,
+        kids: false,
         year: "2023",
         img: "/imgs/fastX.jpg",
         trailer: ""
@@ -315,6 +354,7 @@ const peliculas = [
         id: "40",
         name: "Rick and Morty",
         saga: false,
+        kids: false,
         year: "2023",
         img: "/imgs/RickadnMorty.jpg",
         trailer: ""
@@ -323,6 +363,7 @@ const peliculas = [
         id: "41",
         name: "Fantastic Beasts and Where to Find Them",
         saga: true,
+        kids: false,
         year: "2016",
         img: "/imgs/FB1.jpg",
         trailer: ""
@@ -331,6 +372,7 @@ const peliculas = [
         id: "42",
         name: "Fantastic Beasts: The Crimes of Grindelwald",
         saga: true,
+        kids: false,
         year: "2018",
         img: "/imgs/FBgrindelwald.jpg",
         trailer: ""
@@ -339,6 +381,7 @@ const peliculas = [
         id: "43",
         name: "Fantastic Beasts: The Secrets of Dumbledore",
         saga: true,
+        kids: false,
         year: "2022",
         img: "/imgs/FBDumbledor.jpg",
         trailer: ""
@@ -347,6 +390,7 @@ const peliculas = [
         id: "44",
         name: "High School Musical",
         saga: true,
+        kids: false,
         year: "2006",
         img: "/imgs/HSM1.jpg",
         trailer: ""
@@ -355,6 +399,7 @@ const peliculas = [
         id: "45",
         name: "High School Musical 2",
         saga: true,
+        kids: false,
         year: "2007",
         img: "/imgs/HSM2.jpg",
         trailer: ""
@@ -363,6 +408,7 @@ const peliculas = [
         id: "46",
         name: "High School Musical 3: Senior Year",
         saga: true,
+        kids: false,
         year: "2008",
         img: "/imgs/HSM3.jpg",
         trailer: ""
@@ -371,6 +417,7 @@ const peliculas = [
         id: "47",
         name: "Real Steel",
         saga: false,
+        kids: false,
         year: "2011",
         img: "/imgs/RealSteal.jpg",
         trailer: ""
@@ -379,6 +426,7 @@ const peliculas = [
         id: "48",
         name: "Ready Player One",
         saga: false,
+        kids: false,
         year: "2018",
         img: "/imgs/ReadyPlayerOne.jpg",
         trailer: ""
@@ -387,6 +435,7 @@ const peliculas = [
         id: "49",
         name: "Alita: Battle Angel",
         saga: false,
+        kids: false,
         year: "2019",
         img: "/imgs/Alita.jpg",
         trailer: ""
@@ -395,49 +444,155 @@ const peliculas = [
         id: "50",
         name: "Dune",
         saga: true,
+        kids: false,
         year: "2021",
-        img: "/imgs/.jpg",
+        img: "/imgs/Dune.jpg",
         trailer: ""
     }
     /*
     {
         id: "",
-        name: "",
+        name: "Blade",
         saga: true,
+        kids: false,
         year: "2023",
         img: "/imgs/.jpg",
         trailer: ""
     }
     {
         id: "",
-        name: "",
+        name: "Toy Story",
         saga: true,
+        kids: true,
         year: "2023",
         img: "/imgs/.jpg",
         trailer: ""
     }
     {
         id: "",
-        name: "",
+        name: "Toy Story 2",
         saga: true,
+        kids: true,
         year: "2023",
         img: "/imgs/.jpg",
         trailer: ""
     }
     {
         id: "",
-        name: "",
+        name: "Toy Story 3",
         saga: true,
+        kids: true,
         year: "2023",
         img: "/imgs/",
         trailer: ""
     }
     {
         id: "",
-        name: "",
+        name: "Tarzan",
         saga: true,
+        kids: true,
         year: "2023",
         img: "/imgs/",
         trailer: ""
-    }*/
+    }
+    {
+        id: "",
+        name: "Hercules",
+        saga: true,
+        kids: true,
+        year: "2023",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "Monsters, Inc.",
+        saga: true,
+        kids: true,
+        year: "2023",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "Monsters University",
+        saga: true,
+        kids: true,
+        year: "2023",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "Finding Nemo",
+        saga: false,
+        kids: true,
+        year: "1998",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "Finding Dory",
+        saga: false,
+        kids: true,
+        year: "1998",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "A Bug's Life",
+        saga: false,
+        kids: true,
+        year: "1998",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "The Incredibles",
+        saga: false,
+        kids: true,
+        year: "1998",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "Incredibles 2",
+        saga: true,
+        kids: true,
+        year: "1998",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "Tangled",
+        saga: false,
+        kids: true,
+        year: "1998",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "IT",
+        saga: false,
+        kids: true,
+        year: "2017",
+        img: "/imgs/",
+        trailer: ""
+    }
+    {
+        id: "",
+        name: "It Chapter Two",
+        saga: false,
+        kids: true,
+        year: "2019",
+        img: "/imgs/",
+        trailer: ""
+    }
+    */
 ]

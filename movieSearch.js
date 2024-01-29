@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  showMovies()
+  setInterval(showMovies, 5000)
 })
 
 document.addEventListener('keyup', e => {
