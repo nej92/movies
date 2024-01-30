@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  setInterval(showMovies, 5000)
+  showMovies()
 })
 
 document.addEventListener('keyup', e => {
@@ -47,6 +47,25 @@ $("#saga").on('click', function () {
     $('.movies').remove()
     let soloSaga = peliculas.filter(peliculas => peliculas.saga == true);
     for (m of soloSaga) {
+      $('#content').append(`
+      <div class="movie">
+        <h3 style="display: none">${m.name}</h3>
+        <img src="${m.img}">
+      </div>
+      `
+      )
+    }
+  } else {
+    $('.movie').remove();
+    showMovies()
+  }
+});
+
+$("#kids").on('click', function () {
+  if ($('#kids').prop("checked")) {
+    $('.movies').remove()
+    let soloKids = peliculas.filter(peliculas => peliculas.kids == true);
+    for (m of soloKids) {
       $('#content').append(`
       <div class="movie">
         <h3 style="display: none">${m.name}</h3>
